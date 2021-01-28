@@ -1,0 +1,124 @@
+@use 'variables';
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  position: relative;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.cleofullbox {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cleofullbox .cleo {
+  position: absolute;
+  max-width: 1000px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.cleofullbox .listinputs {
+  position: absolute;
+  font-size: 1rem;
+  font-family: Helvetica;
+  z-index: 10;
+  top: 22%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 700px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.cleofullbox .typeinput {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 40%;
+          flex: 0 0 40%;
+  margin: 5px;
+}
+
+.cls-2 {
+  fill: blue;
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  border: none;
+  width: 60%;
+  height: 40%;
+}
+
+input[type="color"]:hover {
+  cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 5%;
+}
+
+.cleowall {
+  fill: #99ceca;
+}
+
+.cleocarpet {
+  fill: #93a093;
+}
+
+.cleofur {
+  fill: #000000;
+}
+
+.cleotextbox {
+  fill: #e1fffc;
+}
+
+.cleoaccent {
+  fill: #fffff8;
+}
+
+.cleocollar {
+  fill: #ff0000;
+}
+
+.cleoeyes {
+  fill: #a2ba7d;
+}
+
+.cleoiris {
+  fill: #070c05;
+}
+
+.cleonose {
+  fill: #efa3a3;
+}
+
+.cls-10 {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 0.5px;
+}
+/*# sourceMappingURL=styles.css.map */

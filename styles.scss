@@ -1,0 +1,121 @@
+@use 'variables';
+
+$cleocollar : #ff0000;
+$cleoaccent : #fffff8;
+$cleofur : #000000;
+$cleoeyes :  #a2ba7d;
+$cleocarpet : #93a093;
+$cleowall : #99ceca;
+$cleonose: #efa3a3;
+
+
+//TITLE
+
+
+h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  position: relative;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+
+// PLACING ON PAGE
+.cleofullbox {
+
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+
+  
+  .cleo {
+    position: absolute;
+    max-width: 1000px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  
+
+  }
+
+  .listinputs {
+    position: absolute;
+    font-size: 1rem;
+    font-family: Helvetica;
+    z-index: 10;
+    top: 22%;
+  left: 0;
+  right: 0;
+  margin: auto;
+    max-width: 700px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .typeinput {
+    flex: 0 0 40%;
+    margin: 5px;
+  }
+}
+
+.cls-2 {
+  fill: blue;
+}
+
+//WEBKIT COLOR PICKER EDITS
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 60%;
+	height: 40%;
+}
+
+input[type="color"]:hover {
+  cursor:pointer;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 5%;
+}
+
+
+// CLEO
+
+
+
+.cleowall{fill: #99ceca;}
+
+.cleocarpet{fill: $cleocarpet;}
+
+.cleofur{fill: $cleofur;}
+
+.cleotextbox{fill:#e1fffc;}
+
+.cleoaccent{fill:$cleoaccent;}
+
+.cleocollar{fill:#ff0000;}
+
+.cleoeyes{fill:$cleoeyes;}
+
+.cleoiris{fill:#070c05;}
+
+.cleonose{fill:$cleonose;}
+
+  .cls-10{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:0.5px;}
+
+
+
